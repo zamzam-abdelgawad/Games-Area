@@ -1,0 +1,82 @@
+/* body {
+  padding: 0;
+  margin: 0 auto;
+  background: #092323;
+}
+
+
+  .puzzel{
+    width: 90%;
+  }
+
+  #text div {
+    position:relative;
+    height: 215px;
+    width: 262px;
+    border: 1px solid gray;
+    display: inline-block;
+  }
+  
+  #text {
+    width:800px;
+    height:650px;
+    background:black;
+    border:5px solid black;
+    margin:auto;
+  }
+  
+  #images {
+    width: 100%
+  }
+  
+  img {
+    height: 215px;
+    width: 262px;
+  } */
+  
+
+* {
+  padding: 0;
+  margin: 0 ;
+}
+body{
+  background-color: rgb(205, 237, 237);
+}
+.puzzel{
+  position: relative;
+  margin: 0 auto;
+  width: 95%;
+  border: 2px solid #000;
+  display: flex;
+}
+#text{
+  position: absolute;
+  width: 69%;
+  height:650px;
+  left: 400px;
+  top: 50px;
+  /* background:black; */
+  border:5px solid rgb(243, 15, 15);
+  margin:auto;
+}
+.posotion div {
+  position:relative;
+  height: 162.5px;
+  width: 250px;
+  border: 1px solid gray;
+  display: inline-block;
+  align-items: center;
+}
+.posotion{
+  display: flex;
+  flex-wrap: wrap;
+}
+#images{
+  position: absolute;
+  width:23%;
+
+}
+
+.img{
+  width: 40%;
+}

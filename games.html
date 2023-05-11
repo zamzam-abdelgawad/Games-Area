@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="games.css">
+</head>
+
+<body>
+    <ul class="c-rainbow">
+        <li class="c-rainbow__layer c-rainbow__layer--white"><h1 id="userNamee"></h1></li>
+        <li class="c-rainbow__layer c-rainbow__layer--orange"><h1 id="userNamee"></h1></li>
+        <li class="c-rainbow__layer c-rainbow__layer--red"><h1 id="userNamee"></h1></li>
+        <li class="c-rainbow__layer c-rainbow__layer--violet"><h1 id="userNamee"></h1></li>
+        <li class="c-rainbow__layer c-rainbow__layer--blue"><h1 id="userNamee"></h1></li>
+        <li class="c-rainbow__layer c-rainbow__layer--green"><h1 id="userNamee"></h1></li>
+        <li class="c-rainbow__layer c-rainbow__layer--yellow"><h1 id="userNamee"></h1></li>
+       </ul>
+
+    
+    <div class="container">
+        <div class="card">
+            <h2 class="title">Memory</h2>
+            <div class="img-card">
+                <a href="memory\memory.html">
+                    <img src="./111.png" alt="" class="img">
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="title">X-O</h2>
+            <div class="img-card">
+                <a href="xo\Xo.html">
+                    <img src="./unnamed.png" alt="" class="img">
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Puzzle</h2>
+            <div class="img-card">
+                <a href="Puzzle\index.html">
+                    <img src="./81QdLcayiWS.jpg" alt="" class="img">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // @mtsgenerso
+// Ignore JS
+     var userNamee =document.getElementById('userNamee');
+     var playerr= localStorage.getItem('name');
+    userNamee.innerText="Welcome ";
+    var span =document.createElement('span');
+    userNamee.appendChild(span);
+    span.innerText=` ${playerr}`
+    span.classList.add('userNamee')
+
+
+    </script>
+</body>
+
+</html>
